@@ -14,7 +14,6 @@ public class StartSystemListener implements ServletContextListener {
 		application.setAttribute("APP_PATH", contextPath);
 		System.out.println("APP_PATH...");
 		
-		//2.
 	}
 
 	public void contextDestroyed(ServletContextEvent sce) {
